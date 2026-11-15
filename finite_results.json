@@ -1,0 +1,99 @@
+{
+  "offline_table": [
+    {
+      "n": 2,
+      "histories": 1,
+      "matching_online": "1",
+      "matching_offline": "1",
+      "matching_ratio": "1",
+      "independent_online": "1",
+      "independent_offline": "1",
+      "independent_ratio": "1"
+    },
+    {
+      "n": 3,
+      "histories": 2,
+      "matching_online": "1",
+      "matching_offline": "1",
+      "matching_ratio": "1",
+      "independent_online": "3/2",
+      "independent_offline": "2",
+      "independent_ratio": "3/4"
+    },
+    {
+      "n": 4,
+      "histories": 6,
+      "matching_online": "4/3",
+      "matching_offline": "5/3",
+      "matching_ratio": "4/5",
+      "independent_online": "2",
+      "independent_offline": "7/3",
+      "independent_ratio": "6/7"
+    },
+    {
+      "n": 5,
+      "histories": 24,
+      "matching_online": "5/3",
+      "matching_offline": "23/12",
+      "matching_ratio": "20/23",
+      "independent_online": "5/2",
+      "independent_offline": "37/12",
+      "independent_ratio": "30/37"
+    },
+    {
+      "n": 6,
+      "histories": 120,
+      "matching_online": "2",
+      "matching_offline": "29/12",
+      "matching_ratio": "24/29",
+      "independent_online": "3",
+      "independent_offline": "43/12",
+      "independent_ratio": "36/43"
+    },
+    {
+      "n": 7,
+      "histories": 720,
+      "matching_online": "7/3",
+      "matching_offline": "83/30",
+      "matching_ratio": "70/83",
+      "independent_online": "7/2",
+      "independent_offline": "127/30",
+      "independent_ratio": "105/127"
+    },
+    {
+      "n": 8,
+      "histories": 5040,
+      "matching_online": "8/3",
+      "matching_offline": "673/210",
+      "matching_ratio": "560/673",
+      "independent_online": "4",
+      "independent_offline": "1007/210",
+      "independent_ratio": "840/1007"
+    },
+    {
+      "n": 9,
+      "histories": 40320,
+      "matching_online": "3",
+      "matching_offline": "377/105",
+      "matching_ratio": "315/377",
+      "independent_online": "9/2",
+      "independent_offline": "568/105",
+      "independent_ratio": "945/1136"
+    }
+  ],
+  "checked_two_time_covariances": 64,
+  "descent_example_parents": [
+    1,
+    1,
+    3,
+    2,
+    5
+  ],
+  "descent_example_words": [
+    "1",
+    "12",
+    "132",
+    "4132",
+    "41325"
+  ]
+}

@@ -26,3 +26,9 @@ python make_figures.py
 - [Two decisions on the same four-vertex tree](figures/first_decision.pdf) shows the edges kept after accepting or rejecting the first edge.
 - [A tree and its permutation](figures/bijection.pdf) pairs three matching edges with the first edge and two interior peaks of the permutation 24351.
 - [The cost of rejecting a feasible arrival](figures/rejection_costs.pdf) compares the two problems at a horizon of ten vertices.
+
+## Finite offline optima and joint laws
+
+Run `python verify_finite.py` to regenerate [finite_results.json](finite_results.json). The script enumerates the same 46,233 trees. Two subtree recursions compute the maximum matching and independent set after the whole tree is known. The output gives exact ratios of the expected online size to the expected offline size at each horizon from 2 to 9. The script checks 64 two-time covariance identities against the joint greedy paths and records the successive permutations in the worked descent example.
+
+To check both reference files from a clone after running both scripts, use `git diff --exit-code -- verification_results.json finite_results.json`.
